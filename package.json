@@ -1,0 +1,24 @@
+{
+  "name": "webopt-webfonts",
+  "version": "1.0.0",
+  "description": "Client website for Chapter 7 of Web Optimization in Action.",
+  "main": "http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malchata/webopt-webfonts.git"
+  },
+  "author": "Jeremy Wagner <jeremy.l.wagner@gmail.com> (http://jeremywagner.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malchata/webopt-webfonts/issues"
+  },
+  "homepage": "https://github.com/malchata/webopt-webfonts#readme",
+  "dependencies": {
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "serve-favicon": "^2.3.0"
+  }
+}
