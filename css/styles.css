@@ -107,7 +107,7 @@ header{
 }
 
 #logo{
-	width: 75%;
+	width: 87.5%;
 	height: auto;
 	margin: 0 auto 1rem;
 	display: block;
@@ -118,6 +118,7 @@ header{
 	text-align: center;
 	color: #ecf0f1;
 	font-size: 1rem;
+	line-height: 1.25rem;
 	font-weight: 400;
 }
 
@@ -143,6 +144,7 @@ article{
 p{
 	color: #2c3e50;
 	font-size: .875rem;
+	line-height: 1.09375rem;
 	margin: 0 0 .875rem;
 }
 
@@ -160,6 +162,7 @@ p:last-child{
 	color: #2c3e50;
 	font-weight: 700;
 	font-size: 1.25rem;
+	line-height: 1.5625rem;
 	text-transform: uppercase;
 	margin: 0 0 .5rem;
 }
@@ -244,6 +247,7 @@ footer{
 
 	.tagline{
 		font-size: 1.25rem;
+		line-height: 1.5625rem;
 	}
 
 	.navItem{
@@ -263,8 +267,8 @@ footer{
 		border: .25rem solid #ecf0f1;
 		box-shadow: .25rem .25rem 0 rgba(22, 31, 40, 0.5);
 		position: absolute;
-		right: .5rem;
-		top: -.5rem;
+		right: 1rem;
+		top: -1rem;
 		background: #e74c3c;
 		display: block;
 	}
@@ -277,6 +281,7 @@ footer{
 
 	p{
 		font-size: 1rem;
+		line-height: 1.25rem;
 		margin: 0 0 1rem;
 	}
 
