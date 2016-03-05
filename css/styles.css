@@ -122,7 +122,7 @@ header{
 }
 
 article{
-	background: #e74c3c;
+	background: #2980b9;
 	box-shadow: .25rem .25rem 0 rgba(22, 31, 40, 0.5);
 	position: relative;
 	padding: 1rem;
@@ -191,7 +191,7 @@ p:last-child{
 	left: 50%;
 	width: 1.5rem;
 	height: 1.5rem;
-	border: .5rem solid #E74c40;
+	border: .5rem solid #2980b9;
 	border-radius: 50%;
 	display: block;
 	margin: 0 0 0 -.75rem;
@@ -265,7 +265,7 @@ footer{
 		position: absolute;
 		right: .5rem;
 		top: -.5rem;
-		background: #3498db;
+		background: #e74c3c;
 		display: block;
 	}
 
