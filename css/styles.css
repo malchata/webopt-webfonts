@@ -1,5 +1,53 @@
 /* Start Font Imports */
 
+@font-face{
+	font-family: "Encode Sans Extra Light";
+	font-weight: 200;
+	font-style: normal;
+	src: /*
+		 These local sources are commented out for debugging purposes.
+		 In any production site, they should be commented out.
+		 local("Encode Sans Extra Light"),
+		 local("EncodeSans-ExtraLight"),
+		 */
+		 url("encode-sans/EncodeSans-ExtraLight.woff2") format("woff2"),
+		 url("encode-sans/EncodeSans-ExtraLight.woff") format("woff"),
+		 url("encode-sans/EncodeSans-ExtraLight.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-ExtraLight.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Encode Sans Regular";
+	font-weight: 400;
+	font-style: normal;
+	src: /*
+		 These local sources are commented out for debugging purposes.
+		 In any production site, they should be commented out.
+		 local("Encode Sans Regular"),
+		 local("EncodeSans-Regular"),
+		 */
+		 url("encode-sans/EncodeSans-Regular.woff2") format("woff2"),
+		 url("encode-sans/EncodeSans-Regular.woff") format("woff"),
+		 url("encode-sans/EncodeSans-Regular.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Encode Sans Bold";
+	font-weight: 700;
+	font-style: normal;
+	src: /*
+		 These local sources are commented out for debugging purposes.
+		 In any production site, they should be commented out.
+		 local("Encode Sans Bold"),
+		 local("EncodeSans-Bold"),
+		 */
+		 url("encode-sans/EncodeSans-Bold.woff2") format("woff2"),
+		 url("encode-sans/EncodeSans-Bold.woff") format("woff"),
+		 url("encode-sans/EncodeSans-Bold.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-Bold.ttf") format("truetype");
+}
+
 /* End Font Imports */
 
 *,
@@ -62,7 +110,7 @@ body{
 	background: #2c3e50;
 	padding: 1rem;
 	margin: 0;
-	font-family: sans-serif;
+	font-family: "Encode Sans Regular", Helvetica, Arial, sans-serif;
 }
 
 ol,
@@ -96,6 +144,7 @@ header{
 
 .navItem a{
 	font-weight: 200;
+	font-family: "Encode Sans Extra Light";
 	font-size: 1rem;
 	line-height: 1rem;
 	color: #ecf0f1;
@@ -142,6 +191,7 @@ header{
 	color: #ecf0f1;
 	font-size: 1.25rem;
 	font-weight: 700;
+	font-family: "Encode Sans Bold";
 	text-transform: uppercase;
 	margin: 0 0 .5rem;
 }
@@ -166,6 +216,7 @@ p:last-child{
 .sectionHeader{
 	color: #2c3e50;
 	font-weight: 700;
+	font-family: "Encode Sans Bold";
 	font-size: 1.25rem;
 	line-height: 1.5625rem;
 	text-transform: uppercase;
