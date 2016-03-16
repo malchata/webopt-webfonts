@@ -42,6 +42,7 @@
 		 local("Encode Sans Bold"),
 		 local("EncodeSans-Bold"),
 		 */
+		 url("encode-sans/EncodeSans-Bold-English.woff2") format("woff2"),
 		 url("encode-sans/EncodeSans-Bold-English.woff") format("woff"),
 		 url("encode-sans/EncodeSans-Bold-English.eot") format("embedded-opentype"),
 		 url("encode-sans/EncodeSans-Bold-English.ttf") format("truetype");
