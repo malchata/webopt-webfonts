@@ -6,14 +6,14 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Encode Sans Extra Light"),
 		 local("EncodeSans-ExtraLight"),
 		 */
-		 url("encode-sans/EncodeSans-ExtraLight.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-ExtraLight.woff") format("woff"),
-		 url("encode-sans/EncodeSans-ExtraLight.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-ExtraLight.ttf") format("truetype");
+		 url("encode-sans/EncodeSans-ExtraLight-English.woff2") format("woff2"),
+		 url("encode-sans/EncodeSans-ExtraLight-English.woff") format("woff"),
+		 url("encode-sans/EncodeSans-ExtraLight-English.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-ExtraLight-English.ttf") format("truetype");
 }
 
 @font-face{
@@ -22,14 +22,14 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Encode Sans Regular"),
 		 local("EncodeSans-Regular"),
 		 */
-		 url("encode-sans/EncodeSans-Regular.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-Regular.woff") format("woff"),
-		 url("encode-sans/EncodeSans-Regular.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-Regular.ttf") format("truetype");
+		 url("encode-sans/EncodeSans-Regular-English.woff2") format("woff2"),
+		 url("encode-sans/EncodeSans-Regular-English.woff") format("woff"),
+		 url("encode-sans/EncodeSans-Regular-English.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-Regular-English.ttf") format("truetype");
 }
 
 @font-face{
@@ -38,14 +38,13 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Encode Sans Bold"),
 		 local("EncodeSans-Bold"),
 		 */
-		 url("encode-sans/EncodeSans-Bold.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-Bold.woff") format("woff"),
-		 url("encode-sans/EncodeSans-Bold.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-Bold.ttf") format("truetype");
+		 url("encode-sans/EncodeSans-Bold-English.woff") format("woff"),
+		 url("encode-sans/EncodeSans-Bold-English.eot") format("embedded-opentype"),
+		 url("encode-sans/EncodeSans-Bold-English.ttf") format("truetype");
 }
 
 /* End Font Imports */
