@@ -14,6 +14,7 @@
 		 url("open-sans/OpenSans-Light-BasicLatin.woff") format("woff"),
 		 url("open-sans/OpenSans-Light-BasicLatin.eot") format("embedded-opentype"),
 		 url("open-sans/OpenSans-Light-BasicLatin.ttf") format("truetype");
+	unicode-range: U+0000-007F;
 }
 
 @font-face{
@@ -30,6 +31,7 @@
 		 url("open-sans/OpenSans-Regular-BasicLatin.woff") format("woff"),
 		 url("open-sans/OpenSans-Regular-BasicLatin.eot") format("embedded-opentype"),
 		 url("open-sans/OpenSans-Regular-BasicLatin.ttf") format("truetype");
+	unicode-range: U+0000-007F;
 }
 
 @font-face{
@@ -46,6 +48,7 @@
 		 url("open-sans/OpenSans-Bold-BasicLatin.woff") format("woff"),
 		 url("open-sans/OpenSans-Bold-BasicLatin.eot") format("embedded-opentype"),
 		 url("open-sans/OpenSans-Bold-BasicLatin.ttf") format("truetype");
+	unicode-range: U+0000-007F;
 }
 
 /* End Font Imports */
