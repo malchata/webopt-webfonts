@@ -1,51 +1,51 @@
 /* Start Font Imports */
 
 @font-face{
-	font-family: "Encode Sans Extra Light";
-	font-weight: 200;
+	font-family: "Open Sans Light";
+	font-weight: 300;
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
 		 In any production site, they should be enabled.
-		 local("Encode Sans Extra Light"),
-		 local("EncodeSans-ExtraLight"),
+		 local("Open Sans Light"),
+		 local("OpenSans-Light"),
 		 */
-		 url("encode-sans/EncodeSans-ExtraLight-English.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-ExtraLight-English.woff") format("woff"),
-		 url("encode-sans/EncodeSans-ExtraLight-English.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-ExtraLight-English.ttf") format("truetype");
+		 url("open-sans/OpenSans-Light-BasicLatin.woff2") format("woff2"),
+		 url("open-sans/OpenSans-Light-BasicLatin.woff") format("woff"),
+		 url("open-sans/OpenSans-Light-BasicLatin.eot") format("embedded-opentype"),
+		 url("open-sans/OpenSans-Light-BasicLatin.ttf") format("truetype");
 }
 
 @font-face{
-	font-family: "Encode Sans Regular";
+	font-family: "Open Sans Regular";
 	font-weight: 400;
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
 		 In any production site, they should be enabled.
-		 local("Encode Sans Regular"),
-		 local("EncodeSans-Regular"),
+		 local("Open Sans Regular"),
+		 local("OpenSans-Regular"),
 		 */
-		 url("encode-sans/EncodeSans-Regular-English.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-Regular-English.woff") format("woff"),
-		 url("encode-sans/EncodeSans-Regular-English.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-Regular-English.ttf") format("truetype");
+		 url("open-sans/OpenSans-Regular-BasicLatin.woff2") format("woff2"),
+		 url("open-sans/OpenSans-Regular-BasicLatin.woff") format("woff"),
+		 url("open-sans/OpenSans-Regular-BasicLatin.eot") format("embedded-opentype"),
+		 url("open-sans/OpenSans-Regular-BasicLatin.ttf") format("truetype");
 }
 
 @font-face{
-	font-family: "Encode Sans Bold";
+	font-family: "Open Sans Bold";
 	font-weight: 700;
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
 		 In any production site, they should be enabled.
-		 local("Encode Sans Bold"),
-		 local("EncodeSans-Bold"),
+		 local("Open Sans Bold"),
+		 local("OpenSans-Bold"),
 		 */
-		 url("encode-sans/EncodeSans-Bold-English.woff2") format("woff2"),
-		 url("encode-sans/EncodeSans-Bold-English.woff") format("woff"),
-		 url("encode-sans/EncodeSans-Bold-English.eot") format("embedded-opentype"),
-		 url("encode-sans/EncodeSans-Bold-English.ttf") format("truetype");
+		 url("open-sans/OpenSans-Bold-BasicLatin.woff2") format("woff2"),
+		 url("open-sans/OpenSans-Bold-BasicLatin.woff") format("woff"),
+		 url("open-sans/OpenSans-Bold-BasicLatin.eot") format("embedded-opentype"),
+		 url("open-sans/OpenSans-Bold-BasicLatin.ttf") format("truetype");
 }
 
 /* End Font Imports */
@@ -110,7 +110,7 @@ body{
 	background: #2c3e50;
 	padding: 1rem;
 	margin: 0;
-	font-family: "Encode Sans Regular", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans Regular", Helvetica, Arial, sans-serif;
 }
 
 ol,
@@ -143,8 +143,8 @@ header{
 }
 
 .navItem a{
-	font-weight: 200;
-	font-family: "Encode Sans Extra Light";
+	font-weight: 300;
+	font-family: "Open Sans Light";
 	font-size: 1rem;
 	line-height: 1rem;
 	color: #ecf0f1;
@@ -191,7 +191,7 @@ header{
 	color: #ecf0f1;
 	font-size: 1.25rem;
 	font-weight: 700;
-	font-family: "Encode Sans Bold";
+	font-family: "Open Sans Bold";
 	text-transform: uppercase;
 	margin: 0 0 .5rem;
 }
@@ -216,7 +216,7 @@ p:last-child{
 .sectionHeader{
 	color: #2c3e50;
 	font-weight: 700;
-	font-family: "Encode Sans Bold";
+	font-family: "Open Sans Bold";
 	font-size: 1.25rem;
 	line-height: 1.5625rem;
 	text-transform: uppercase;
