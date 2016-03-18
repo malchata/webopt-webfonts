@@ -3,6 +3,25 @@
 	<head>
 		<title>Legendary Tones - All About Ohms</title>
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" data-href="css/ru.css" data-lang="ru" type="text/css">
+		<script>
+			(function(document){
+				var documentLang = document.querySelector("html").getAttribute("lang"),
+					linkCollection = document.querySelectorAll("link[data-href]");
+
+				for(var i = 0; i < linkCollection.length; i++){
+					var linkLang = linkCollection[i].getAttribute("data-lang"),
+						linkHref = linkCollection[i].getAttribute("data-href");
+
+					if(documentLang === linkLang){
+						linkCollection[i].setAttribute("href", linkHref);
+					}
+				}
+			})(document);
+		</script>
+		<noscript>
+			<link rel="stylesheet" href="css/ru.css" type="text/css">
+		</noscript>
 	</head>
 	<body>
 		<div id="content">
