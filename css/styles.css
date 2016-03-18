@@ -6,7 +6,7 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Open Sans Extra Light"),
 		 local("OpenSans-Light"),
 		 */
@@ -22,7 +22,7 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Open Sans Regular"),
 		 local("OpenSans-Regular"),
 		 */
@@ -38,7 +38,7 @@
 	font-style: normal;
 	src: /*
 		 These local sources are commented out for debugging purposes.
-		 In any production site, they should be commented out.
+		 In any production site, they should be enabled.
 		 local("Open Sans Bold"),
 		 local("OpenSans-Bold"),
 		 */
@@ -316,7 +316,7 @@ footer{
 
 	.navItem a{
 		font-size: 1.5rem;
-		line-height; 1.5rem;
+		line-height: 1.5rem;
 	}
 
 	.articleTitle{
