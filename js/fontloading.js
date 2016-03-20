@@ -1,3 +1,3 @@
-(function(document){
-	/* Start here. */
-})(document);
+(function(document, window){
+
+})(document, window);
