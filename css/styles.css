@@ -110,7 +110,7 @@ body{
 	background: #2c3e50;
 	padding: 1rem;
 	margin: 0;
-	font-family: "Open Sans Regular", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica", "Arial", sans-serif;
 }
 
 ol,
@@ -144,7 +144,7 @@ header{
 
 .navItem a{
 	font-weight: 300;
-	font-family: "Open Sans Light";
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 1rem;
 	line-height: 1rem;
 	color: #ecf0f1;
@@ -191,7 +191,7 @@ header{
 	color: #ecf0f1;
 	font-size: 1.25rem;
 	font-weight: 700;
-	font-family: "Open Sans Bold";
+	font-family: "Helvetica", "Arial", sans-serif;
 	text-transform: uppercase;
 	margin: 0 0 .5rem;
 }
@@ -216,7 +216,7 @@ p:last-child{
 .sectionHeader{
 	color: #2c3e50;
 	font-weight: 700;
-	font-family: "Open Sans Bold";
+	font-family: "Helvetica", "Arial", sans-serif;
 	font-size: 1.25rem;
 	line-height: 1.5625rem;
 	text-transform: uppercase;
@@ -355,4 +355,17 @@ footer{
 	.sectionHeader{
 		font-size: 1.25rem;
 	}
+}
+
+.fonts-loaded body{
+	font-family: "Open Sans Regular";
+}
+
+.fonts-loaded .navItem a{
+	font-family: "Open Sans Light";
+}
+
+.fonts-loaded .articleTitle,
+.fonts-loaded .sectionHeader{
+	font-family: "Open Sans Bold";
 }

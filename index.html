@@ -3,6 +3,45 @@
 	<head>
 		<title>Legendary Tones - All About Ohms</title>
 		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<script>
+			(function(document){
+				if(document.fonts && document.cookie.indexOf("fonts-loaded") === -1){
+					var fontsLoaded = 0,
+						fontFaces = ["1em Open Sans Light", "1em Open Sans Regular", "1em Open Sans Bold"];
+
+					for(var i = 0; i < fontFaces.length; i++){
+						document.fonts.load(fontFaces[i]).then(function(){
+							fontsLoaded++;
+
+							if(fontsLoaded === document.fonts.size){
+								document.documentElement.className += " fonts-loaded";
+								document.cookie = "fonts-loaded=";
+							}
+						});
+					}
+				}
+				else{
+					document.documentElement.className += " fonts-loaded";
+				}
+
+			})(document);
+		</script>
+		<noscript>
+			<style>
+				body{
+					font-family: "Open Sans Regular";
+				}
+
+				.navItem a{
+					font-family: "Open Sans Light";
+				}
+
+				.articleTitle,
+				.sectionHeader{
+					font-family: "Open Sans Bold";
+				}
+			</style>
+		</noscript>
 	</head>
 	<body>
 		<div id="content">
