@@ -20,6 +20,18 @@
 						});
 					}
 				}
+				else if(!document.fonts && document.cookie.indexOf("fonts-loaded") === -1){
+					var fontFaceObserverScript = document.createElement("script"),
+						fontLoadingScript = document.createElement("script");
+
+					fontFaceObserverScript.src = "js/fontfaceobserver.min.js";
+					fontLoadingScript.src = "js/fontloading.js";
+					fontFaceObserverScript.defer = "defer";
+					fontLoadingScript.defer = "defer";
+
+					document.head.appendChild(fontFaceObserverScript);
+					document.head.appendChild(fontLoadingScript);
+				}
 				else{
 					document.documentElement.className += " fonts-loaded";
 				}
