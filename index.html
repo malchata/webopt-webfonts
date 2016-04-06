@@ -6,19 +6,14 @@
 		<script>
 			(function(document){
 				if(document.fonts && document.cookie.indexOf("fonts-loaded") === -1){
-					var fontsLoaded = 0,
-						fontFaces = ["1em Open Sans Light", "1em Open Sans Regular", "1em Open Sans Bold"];
+					document.fonts.load("1em Open Sans Light");
+					document.fonts.load("1em Open Sans Regular");
+					document.fonts.load("1em Open Sans Bold");
 
-					for(var i = 0; i < fontFaces.length; i++){
-						document.fonts.load(fontFaces[i]).then(function(){
-							fontsLoaded++;
-
-							if(fontsLoaded === document.fonts.size){
-								document.documentElement.className += " fonts-loaded";
-								document.cookie = "fonts-loaded=";
-							}
-						});
-					}
+					document.fonts.ready.then(function(fontFaceSet){
+						document.documentElement.className += " fonts-loaded";
+						document.cookie = "fonts-loaded=";
+					});
 				}
 				else{
 					document.documentElement.className += " fonts-loaded";
